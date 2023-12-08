@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style type="text/css">
+		
+.container{
+	height: 200px;
+}
+.gambar{
+	height: 200px;
+	
+	background-image:url(angka1.gif),url(angka9.gif);
+	background-repeat: no-repeat;
+	background-size: 200px;
+	background-position: 40%,60%;
+
+}
+.gambar::after{
+	content: '';
+	display: block;
+	height: 800px;
+	
+	background-image: url(bunga.gif);
+	background-position: 50%;
+	background-size: 300px;
+
+}
+
+	</style>
+	<title></title>
+</head>
+<body>
+
+	<div class="gambar">
+		
+	</div>
+
+</body>
+</html>

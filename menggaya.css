@@ -1,0 +1,56 @@
+.kue{
+	background-image: url(kue.png);
+	background-repeat: no-repeat;
+	height: 400px;
+	background-position: center center;
+}
+#tulisan{
+	font-family: comic sans ms;
+	
+	font-size: 50px;
+	text-align:center;
+}
+#api{
+	background-image: url(api.gif);
+	background-position: 50.3% 24% ;
+	background-size: 37px;
+	height: 200px;
+	background-repeat: no-repeat;
+
+}
+.kembangApi{
+	background-position: center;
+background-size: 150px;
+	height: 200px;
+	background-repeat: no-repeat;
+	background-image: url(kembangapi1.gif);
+
+}
+.kembangApi2{
+	background-repeat: no-repeat;
+	height: 200px;
+	background-image: url(kembangapi2.gif);
+	background-position: right;
+	background-size: 100px;
+}
+
+#api::after{
+
+content:'' ;
+display: block;
+height: 200px;
+background-repeat: no-repeat;
+background-image: url(kupu.gif);
+background-position: left;
+}
+
+.kue::after{
+
+content:'' ;
+display: block;
+height: 200px;
+background-repeat: no-repeat;
+background-image: url(kembangapi3.gif);
+background-position: center right;
+background-size: 200px;
+}
